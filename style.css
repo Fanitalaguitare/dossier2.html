@@ -1,0 +1,121 @@
+audio {
+    width: 100px;
+    height: 20px;
+}
+.audio{
+    background: rgb(181, 207, 155);
+    text-align: center;
+}
+.container-1 {
+    width: 100%;
+    height: 190px;
+    background-image: url(forest.jpg);
+    background-size: 100%;
+    margin: auto;
+}
+nav {
+    font-weight: bolder; 
+    color: black; 
+}
+@keyframes slidedown {
+    from {
+        transform: translateX(10px);
+    }
+    to {
+        transform: translateX(300px)
+    }
+}
+.bike {
+    margin: 10px;
+    width: 50px;
+    animation: slidedown infinite alternate 8s;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+h2 {
+    margin: 50px;
+    text-align: center;
+    color: rgb(76, 100, 52);
+}
+.fixed a {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    color: rgb(76, 100, 52);
+}
+.container-2 {
+    width: 100%;
+    height: 100px;
+    background: rgb(181, 207, 155);
+    margin-top: 20px;
+}
+.rules {
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    color: black;
+}
+.card {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px;
+}
+.container-3 {
+    width: 100%;
+    height: 200px;
+    background: rgb(235, 243, 164);
+    margin-top: 10px;
+    padding: 5px;
+    padding-top: 50px;
+    text-align: center;
+}
+section {
+    margin: 5px;
+}
+.radpowerbike {
+    color: orange;
+}
+.voie {
+    color: rgb(181, 207, 155);
+}
+.container-4 {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+form {
+   margin: 30px;
+}
+.contact {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.newletter {
+    margin-top: 20px;
+    text-align: end;
+}
+.video {
+    margin-left: 10px;
+}
+p {
+    margin: 10px;
+}
+.facebook {
+    position: fixed;
+    right: 0px;
+    top: 250px;
+}
+.instagram {
+    position: fixed;
+    right: 0px;
+    top: 290px;
+}
+.hr {
+    width: 50%;
+    margin: auto;
+}
