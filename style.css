@@ -9,7 +9,7 @@ audio {
 .container-1 {
     width: 100%;
     height: 190px;
-    background-image: url(forest.jpg);
+    background-image: url(cycling-5178398_1280.webp);
     background-size: 100%;
     margin: auto;
 }
@@ -33,7 +33,8 @@ nav {
 h1 {
     color: white;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 70px;
+    padding-right: 120px;
 }
 h2 {
     margin: 50px;
